@@ -1,15 +1,17 @@
 /**
 	* ABOUT THIS FILE
 	* This file gives an overview of the commands you can use to control the
-	* colour of your shapes, remember for your final assignment your shape should be
-	* black and white, but can be on coloured background
+	* colour of your shapes, it is also a starting place to play with code
+	* that is a bit less complex than the code for the poster factory
 **/
 
+// setup happens once
 function setup() {
 	var canvas = createCanvas(400, 400);
 	canvas.parent('sketch-holder');
 }
 
+// draw happens over and over
 function draw() {
 		background(254, 250, 223);
 		//turn on to make a coloured blue background
